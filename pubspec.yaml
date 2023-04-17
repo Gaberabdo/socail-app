@@ -1,0 +1,55 @@
+name: social
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-339.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  carousel_slider: ^4.2.1
+  flutter_bloc: ^8.1.1
+  conditional_builder_null_safety: ^0.0.6
+  google_fonts: ^4.0.1
+  proste_bezier_curve: ^2.0.2
+  shared_preferences: ^2.0.18
+  icon_broken: ^1.1.0
+  hexcolor: ^3.0.1
+  image_picker: ^0.8.6+4
+  webview_flutter: ^4.0.6
+  iconforest_flat_icons_social: ^1.0.0+1
+  agora_rtc_engine: ^6.1.0
+  permission_handler: ^10.2.0
+  chewie: ^1.4.0
+  flutter_cache_manager: ^3.3.0
+
+
+  #fire_base
+  firebase_storage: ^11.0.14
+  cloud_firestore: ^4.4.3
+  firebase_auth: ^4.2.9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/onboard_1.jpg
+
